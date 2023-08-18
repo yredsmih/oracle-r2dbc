@@ -31,7 +31,7 @@ module com.oracle.database.r2dbc {
 
   requires java.sql;
   requires com.oracle.database.jdbc;
-  requires reactor.core;
+  requires reactor.core2Desk;
   requires transitive org.reactivestreams;
   requires transitive r2dbc.spi;
 
